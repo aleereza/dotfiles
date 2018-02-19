@@ -4,4 +4,5 @@ mv ~/.vimrc ~/.vimrc.old
 printf "source $HOME/dotfiles/zsh/zshrc" > ~/.zshrc
 printf "source $HOME/dotfiles/vim/vimrc" > ~/.vimrc
 printf "source $HOME/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
+ln -s ~/dotfiles/vim ~/.vim
 echo "changes done!"
